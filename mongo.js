@@ -5,7 +5,7 @@ app.use(ex.json())
 
 
 mongo.connect
-("mongodb+srv://hadi-rasool:Hsquare%401444@hadi-database.zo37f.mongodb.net/?retryWrites=true&w=majority&appName=hadi-database")
+("mongodb+srv://4@hadi-database.zo37f.mongodb.net/?retryWrites=true&w=majority&appName=hadi-database")
 
 app.post("signup", async (req,res)=>{
 
